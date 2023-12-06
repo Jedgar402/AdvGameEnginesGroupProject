@@ -29,11 +29,11 @@ public:
 
 private:
 	// Target height for the platform's movement
-	UPROPERTY(EditAnywhere, Category = "Sliding Platform")
+	UPROPERTY(EditAnywhere, Category = "Vertical Platform")
 	float TargetHeight = 20.f;
 
 	// Speed at which the platform moves
-	UPROPERTY(EditAnywhere, Category = "Sliding Platform")
+	UPROPERTY(EditAnywhere, Category = "Vertical Platform")
 	float MoveSpeed = 50.f;
 
 	// Initial location of the platform
